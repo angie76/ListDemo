@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Author/Artist here"
+    android:textSize="18sp"
+    android:id="@+id/item_artist"
+    android:layout_marginLeft="23dp"
+    android:layout_marginStart="23dp"
+    android:layout_below="@+id/item_name"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+<TextView
+    android:id="@+id/item_type2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/item_artist"
+    android:layout_alignStart="@+id/item_artist"
+    android:layout_below="@+id/item_artist"
+    android:text="Type" />
+
+<TextView
+    android:id="@+id/item_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="NAME here"
+    android:textSize="24sp"
+    android:layout_alignParentTop="true"
+    android:layout_alignLeft="@+id/item_artist"
+    android:layout_alignStart="@+id/item_artist" />
+
+</RelativeLayout>
